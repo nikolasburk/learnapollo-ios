@@ -46,7 +46,7 @@ When working with APIs, what is usually returned to you as an app developer is J
 
 Compile time checks to the rescue! Since `apollo-codegen` can actually _guarantee_ that your data requirements are well reflected by your types, the two issues explained above just disappear. As recently stated by [Chris Eidhof](https://twitter.com/chriseidhof/), using `apollo-codegen`, you can now leave the ["boring stuff to the compiler"](http://chris.eidhof.nl/post/types-vs-tdd/). 
 
-Since the types that you are working with in your code now precisely represent the data you receive from the server, you can always be sure about what the data looks like at compile time and there is no need for unwrapping optional values any more
+Since the types that you are working with in your code now precisely represent the data you receive from the server, you can always be sure about what the data looks like at compile time and there is no need for unwrapping optional values any more.
 
 
 #### 3. Strong flexibility and safety
