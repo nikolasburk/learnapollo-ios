@@ -59,3 +59,16 @@ This approach obviously makes the app much safer as crashes that occur because o
 With GraphQL and Apollo you get the best of both worlds! All the flexibility and efficiency from a GraphQL backend while leveraging Swift's static type system to make your app safe as ever.
 
 
+## Why should an iOS developer care about GraphQL?
+
+We strongly believe that GraphQL is the API design paradigm of the future! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
+
+Though GraphQL has been majorly adopted in the web development community so far, Facebook actually developed it to deal with networking issues they primarily saw on _mobile devices_ - with the goal to make the data transfer as efficient as possible. This is why we think that there is an **enormous potential for GraphQL in the native mobile development space** as well! We are actively pushing usage of GraphQL on mobile and want to build an eco-system that makes it as easy as possible for every native app developer to integrate GraphQL in their applications.
+
+
+
+
+
+
+
+
