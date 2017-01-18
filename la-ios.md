@@ -18,9 +18,9 @@ Nevertheless, it already is a tremendously valuable tool when working with a Gra
 
 ## How does the type generation work?
 
-As mentioned above, the Apollo iOS client will generate Swift code for you based on your data requirements. More precisely, this means that it will read all the GraphQL _queries_ and _mutations_ that you have defined for your app and subsequently create types that reflect the data you expect to get back from the backend.
+As mentioned above, the Apollo iOS client will generate Swift code for you based on your data requirements. More precisely, this means that it will read all the GraphQL _queries_ and _mutations_ that you have defined for your app and subsequently create types that reflect the data you expect to receive from the backend.
 
-> Note: The tool that is responsible for the code generation is called `apollo-codegen` and needs to be [integrated into the build process](http://dev.apollodata.com/ios/installation.html#adding-build-step) of your Xcode project.
+The tool that is responsible for the code generation is called `apollo-codegen` and needs to be [integrated into the build process](http://dev.apollodata.com/ios/installation.html#adding-build-step) of your Xcode project.
 
 
 ## Why is code generation useful?
@@ -46,22 +46,24 @@ When working with APIs, what is usually returned to you as an app developer is J
 
 Compile time checks to the rescue! Since `apollo-codegen` can actually _guarantee_ that your data requirements are well reflected by your types, the two issues explained above just disappear. As recently stated by [Chris Eidhof](https://twitter.com/chriseidhof/), using `apollo-codegen`, you can now leave the ["boring stuff to the compiler"](http://chris.eidhof.nl/post/types-vs-tdd/). 
 
-Since the types that you are working with in your code now precisely represent the data you receive from the server, you can always be sure about what the data looks like at compile time and there is no need for unwrapping optional values any more.
+Since the types that you are working with in your code now precisely represent the data you receive from the server, you can always be sure about what the data looks like at compile time and there is no need for unwrapping optional values any more
 
 
 #### 3. Strong flexibility and safety
 
-This approach obviously makes the app much safer as crashes that occur because of accidentally accessing a `nil` value are now simply _impossible_. Using GraphQL and Apollo, there is also a major gain in flexibility! Usually, when data requirements change, e.g. because a specific screen now needs to display different or additional information, there are two options again:
+This approach obviously makes the app much safer as crashes that occur because of accidentally accessing a `nil` value are now simply _impossible_. 
 
-- Adjust the API and make sure th required data can be fetched with a request to the new route. This approach leads to a lot of overhead in the backend and makes rapid iterations on the application basically impossible.
-- Accepting that getting the full data on the screen involves multiple API requests. This approach is obviously very inefficient - not only will it exhaust the user's network plan, most likely large parts of the data that is fetched is not even needed in the client!
+Using GraphQL and Apollo, there is also a major gain in flexibility! Usually, when data requirements change, e.g. because a specific screen now needs to display different or additional information, there are two options again:
 
-With GraphQL and Apollo you get the best of both worlds! All the flexibility and efficiency from a GraphQL backend while leveraging Swift's static type system to make your app safe as ever.
+- Adjust the API and make sure the required data can be fetched with a request to the new route. This approach leads to a lot of overhead in the backend and makes rapid iterations on the application basically impossible.
+- Accepting that getting the full data on the screen involves multiple API requests. This approach is obviously very inefficient - not only will it exhaust the user's network plan, it is also vert likely that large parts of the data being fetched is not even needed in the client.
+
+With GraphQL and Apollo you get the _best of both worlds_! All the flexibility and efficiency from a GraphQL backend while leveraging Swift's static type system to make your app safe as ever.
 
 
 ## Why should an iOS developer care about GraphQL?
 
-We strongly believe that GraphQL is the API design paradigm of the future! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
+We strongly believe that **GraphQL is the API design paradigm of the future**! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
 
 Though GraphQL has been majorly adopted in the web development community so far, Facebook actually developed it to deal with networking issues they primarily saw on _mobile devices_ - with the goal to make the data transfer as efficient as possible. This is why we think that there is an **enormous potential for GraphQL in the native mobile development space** as well! We are actively pushing usage of GraphQL on mobile and want to build an eco-system that makes it as easy as possible for every native app developer to integrate GraphQL in their applications.
 
