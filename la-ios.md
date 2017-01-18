@@ -1,7 +1,5 @@
 # iOS Track for learnapollo
 
-![](./swift.png)
-
 [Learn Apollo](https://www.learnapollo.com/) is a tutorial website that explains how to develop applications using a GraphQL backend and the Apollo client. It's the easiest way to get started with GraphQL, guiding through practical examples using the client technology of your choice - be it **React, React Native, Angular or Vue.js**.
 
 > Note: If you have never heard of [GraphQL](http://graphql.org/) before, it's an API design paradigm that was introduced by Facebook and eliminates many shortcomings of REST. [Apollo](http://dev.apollodata.com/) on the other hand is a _client framework_ that allows you to easily work with a GraphQL API and benefit from features like caching, queries, mutations & subscriptions, pagination and server-side rendering without the overhead of implementing these yourself!
