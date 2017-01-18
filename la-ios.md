@@ -65,7 +65,7 @@ With GraphQL and Apollo you get the _best of both worlds_! All the flexibility a
 
 We strongly believe that **GraphQL is the API design paradigm of the future**! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
 
-> "We were frustrated with the differences between the data we wanted to use in our apps and the server queries they required. We don't think of data in terms of resource URLs, secondary keys, or join tables; we think about it in terms of a graph of objects and the models we ultimately use in our apps like NSObjects or JSON." - [Lee Byron](https://twitter.com/leeb) (Facebook)
+> "We were frustrated with the differences between the data we wanted to use in our apps and the server queries they required. We don't think of data in terms of resource URLs, secondary keys, or join tables; we think about it in terms of a graph of objects and the models we ultimately use in our apps like NSObjects or JSON." - [Lee Byron](https://twitter.com/leeb) (Co-Inventor of GraphQL, Facebook)
 
 Though GraphQL has been majorly adopted in the web development community so far, Facebook actually developed it to deal with networking issues they primarily saw on _mobile devices_ - with the [goal to make the data transfer as efficient as possible](http://graphql.org/blog/graphql-a-query-language/#why-graphql). This is why we think that there is an **enormous potential for GraphQL in the native mobile development space** as well! We are actively pushing usage of GraphQL on mobile and want to build an eco-system that makes it as easy as possible for every native app developer to integrate GraphQL in their applications.
 
