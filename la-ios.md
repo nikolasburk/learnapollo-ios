@@ -25,14 +25,14 @@ As mentioned above, the Apollo iOS client will generate Swift code for you based
 
 When using the Apollo client, you're handing off responsibility for the creation of "model" types to `apollo-codegen`. Of course, you can still create your own model types and map the received data to your custom objects, but the approach that is taken in the Apollo iOS client provides lots of value:
 
-- No need to include _optional_ properties in model objects
-- Compile time checks for your data requirements
-- Strong flexibility and safety
+1. No need to include _optional_ properties in model objects
+2. Compile time checks for your data requirements
+3. Strong flexibility and safety
 
 Let's take a look at each of these points in more detail.
 
 
-#### No _optional_ properties
+#### 1. No _optional_ properties
 
 When working with APIs, what is usually returned to you as an app developer is JSON data. The problem with this of course is that JSON lacks strong typing, and so there are no guarantees for the developer in terms of the data they will actually receive. So, in terms of handling the JSON data, the developer is left with two options:
 
@@ -40,14 +40,14 @@ When working with APIs, what is usually returned to you as an app developer is J
 - Checking for every single JSON field and making sure it contains the data they expect. In Swift, this is usually done by creating _optional_ properties on the types that they are going to map the JSON data to. This is definitely the safer alternative but creates lots of overhead when actually working with the model data, since the properties need to be unwrapped every time they are used.
 
 
-#### Compile time checks
+#### 2. Compile time checks
 
 Compile time checks to the rescue! Since `apollo-codegen` can actually _guarantee_ that your data requirements are well reflected by your types, the two issues explained above just disappear. As recently stated by [Chris Eidhof](https://twitter.com/chriseidhof/), using `apollo-codegen`, you can now leave the ["boring stuff to the compiler"](http://chris.eidhof.nl/post/types-vs-tdd/). 
 
 Since the types that you are working with in your code now precisely represent the data you receive from the server, you can always be sure about what the data looks like at compile time and there is no need for unwrapping optional values any more.
 
 
-#### Strong flexibility and safety
+#### 3. Strong flexibility and safety
 
 This approach obviously makes the app much safer as crashes that occur because of accidentally accessing a `nil` value are now simply _impossible_. Using GraphQL and Apollo, there is also a major gain in flexibility! Usually, when data requirements change, e.g. because a specific screen now needs to display different or additional information, there are two options again:
 
