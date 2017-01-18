@@ -56,7 +56,7 @@ This approach obviously makes the app much safer as crashes that occur because o
 Using GraphQL and Apollo, there is also a major gain in flexibility! Usually, when data requirements change, e.g. because a specific screen now needs to display different or additional information, there are two options again:
 
 - Adjust the API and make sure the required data can be fetched with a request to the new route. This approach leads to a lot of overhead in the backend and makes rapid iterations on the application basically impossible.
-- Accepting that getting the full data on the screen involves multiple API requests. This approach is obviously very inefficient - not only will it exhaust the user's network plan, it is also vert likely that large parts of the data being fetched is not even needed in the client.
+- Accepting that getting the full data on the screen involves multiple API requests. This approach is obviously very inefficient - not only will it exhaust the user's network plan, it is also very likely that large parts of the data being fetched is not even needed in the client.
 
 With GraphQL and Apollo you get the _best of both worlds_! All the flexibility and efficiency from a GraphQL backend while leveraging Swift's static type system to make your app safe as ever.
 
