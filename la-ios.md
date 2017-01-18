@@ -1,4 +1,4 @@
-# iOS Track for learnapollo
+# iOS Track for Learn Apollo
 
 [Learn Apollo](https://www.learnapollo.com/) is a tutorial website that explains how to develop applications using a GraphQL backend and the Apollo client. It's the easiest way to get started with GraphQL, guiding through practical examples using the client technology of your choice - be it **React, React Native, Angular or Vue.js**.
 
@@ -6,6 +6,7 @@
 
 We are now excited to launch an **iOS Track** for [Learn Apollo](https://www.learnapollo.com/). Similar to the other tracks you can find on the site, the goal is to build a fully-fledged Pokedex application that demonstrates major functionalities of the interaction with a GraphQL backend using an Apollo client - **only this time it's from within an iOS app using Swift!** 🚀 
 
+![](./swift.png)
 
 ## The Apollo iOS client
 
