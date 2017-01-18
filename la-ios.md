@@ -1,6 +1,6 @@
 # iOS Track for learnapollo
 
-[](./swift.png)
+![](./swift.png)
 
 [Learn Apollo](https://www.learnapollo.com/) is a tutorial website that explains how to develop applications using a GraphQL backend and the Apollo client. It's the easiest way to get started with GraphQL, guiding through practical examples using the client technology of your choice - be it **React, React Native, Angular or Vue.js**.
 
