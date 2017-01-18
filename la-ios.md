@@ -63,7 +63,7 @@ With GraphQL and Apollo you get the _best of both worlds_! All the flexibility a
 
 ## Why should an iOS developer care about GraphQL?
 
-We strongly believe that **GraphQL is the API design paradigm of the future**! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
+At [Graphcool](www.graph.cool), We strongly believe that **GraphQL is the API design paradigm of the future**! Despite its young age, it already created an incredible impact on the way how web developers write their applications and interface with backends. 
 
 > "We were frustrated with the differences between the data we wanted to use in our apps and the server queries they required. We don't think of data in terms of resource URLs, secondary keys, or join tables; we think about it in terms of a graph of objects and the models we ultimately use in our apps like NSObjects or JSON." - [Lee Byron](https://twitter.com/leeb) (Co-Inventor of GraphQL, Facebook)
 
