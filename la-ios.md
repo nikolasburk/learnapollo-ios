@@ -2,7 +2,7 @@
 
 [Learn Apollo](https://www.learnapollo.com/) is a tutorial website that explains how to develop applications using a [GraphQL](http://graphql.org/) backend and the [Apollo](http://dev.apollodata.com/) client. It's the easiest way to get started with GraphQL, guiding through practical examples using the client technology of your choice - be it **React, React Native, Angular or Vue.js**.
 
-> Note: If you have never heard of [GraphQL](http://graphql.org/) before, it's an API design paradigm that was introduced by Facebook and eliminates many shortcomings of REST. [Apollo](http://dev.apollodata.com/) on the other hand is a _client framework_ that allows you to easily work with a GraphQL API and benefit from features like caching, subscriptions, optimistic UI, pagination and server-side rendering without the overhead of implementing these yourself!
+> Note: If you have never heard of [GraphQL](http://graphql.org/) before, it's an API design paradigm that was introduced by Facebook and eliminates many shortcomings of today's de-facto standard REST. [Apollo](http://dev.apollodata.com/) on the other hand is a _client framework_ that allows you to easily work with a GraphQL API and benefit from features like caching, subscriptions, optimistic UI, pagination and server-side rendering without the overhead of implementing these yourself!
 
 We are now excited to launch an **iOS Track** for [Learn Apollo](https://www.learnapollo.com/). Similar to the other tracks you can find on the site, the goal is to build a fully-fledged Pokedex application that demonstrates major functionalities of the interaction with a GraphQL backend using an Apollo client - **only this time it's from within an iOS app using Swift!** 🚀 
 
