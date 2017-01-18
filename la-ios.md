@@ -13,7 +13,7 @@ We are now excited to launch an **iOS Track** for [Learn Apollo](https://www.lea
 
 The [Apollo iOS Client](https://github.com/apollostack/apollo-ios) is currently under active development and thus lacks important features such as caching or support for GraphQL subscriptions.
 
-Nevertheless, it already is a tremendously valuable tool when working with a GraphQL API! Its sole major feature right now, generation of the Swift types that represent the data requirements of your application, makes it incredibly easy to interact with your GraphQL server.
+Nevertheless, it already is a tremendously valuable tool when working with a GraphQL API. Its sole major feature right now, generation of the Swift types that represent the data requirements of your application, makes it incredibly easy to interact with your GraphQL server.
 
 
 ## How does the type generation work?
